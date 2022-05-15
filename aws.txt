@@ -1,0 +1,1 @@
+$ aws rds create-db-instance --db-instance-identifier db-linuxhint --db-instance-class db.t2.micro --engine mysql --master-user-password 12345678 --master-username demo --allocated-storage 20 --backup-retention-period 0
